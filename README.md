@@ -1,35 +1,16 @@
-# Workshop Materials Template
+# User Guide
 
 This repository contains a scaffold for quickly creating new websites with the [Workshop Materials](https://github.com/experimental-software/workshop-materials) Hugo theme.
 
-## Getting started
-
-### Create project
-
-```
-PROJECT_NAME=your-project-here
-git clone --recurse \
-  git@github.com:experimental-software/workshop-materials-template.git \
-  $PROJECT_NAME
-```
-
-To reset the branch history, run:
-
-```
-cd $PROJECT_NAME
-git checkout --orphan master
-git add .
-git commit -m "Initial commit"
-```
 
 ### Update dummy content
 
 After cloning the repository, you to replace the dummy content from the template with the content of your workshop materials:
 
-- [ ] [Update license information](README.md#license)
+- [x] [Update license information](README.md#license)
 - [ ] [Update dummy config](config.toml)
 - [ ] [Update dummy home page text](content/_index.md)
-- [ ] [Update dummy subject](content/subject-one)
+- [x] [Update dummy subject](content/subject-one)
 - [ ] [Add legal text to imprint](content/imprint.html)
 
 ## Development
@@ -108,15 +89,10 @@ Run the following command to add a new presentation in Hugo's `content` director
 hugo new --kind presentation subject-two/my-presentation
 ```
 
-## Maintenance
+## References
 
-### Update theme
-
-```
-git submodule update --remote
-git add .
-git commit -m "Update theme"
-```
+- https://en.wikipedia.org/wiki/User_guide
+- https://experimental-software.github.io/workshop-materials
 
 ## Credits
 
@@ -127,4 +103,4 @@ git commit -m "Update theme"
 
 ## License
 
-This template repository is licensed under the [CreativeCommons Zero](https://creativecommons.org/share-your-work/public-domain/cc0/) license.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

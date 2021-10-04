@@ -1,8 +1,5 @@
 ---
-tagline: Example project for IT Workshop materials.
-primaryLinkIcon: fas fa-code
-primaryLinkText: Template
-primaryLinkHref: https://github.com/experimental-software/workshop-materials
+tagline: Training materials for the usage of the IT systems in the Kirpal Sagar Charitable Hospital
 ---
 
 # Welcome!

@@ -1,9 +1,5 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://ksch-workflows.github.io/user-guide/"
+languageCode = "en-gb"
+title = "K.S.C.H. Workflows User Guide"
 theme = "workshop-materials"
 defaultContentLanguage = "en"
-
-[params]
-  subject = "IT"
-  feedbackLink = "https://github.com/experimental-software/workshop-materials/issues/new"
